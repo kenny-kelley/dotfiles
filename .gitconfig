@@ -1,0 +1,7 @@
+[user]
+	name = Kenny Kelley
+	email = 16879853+kenny-kelley@users.noreply.github.com
+[core]
+	editor = vim
+[init]
+	defaultBranch = master
