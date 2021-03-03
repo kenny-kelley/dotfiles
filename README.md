@@ -1,4 +1,4 @@
-# My personal configuration files
+# Kenny's personal configuration files
 
 This repository is a dumping ground for my personal configuration files (my "dotfiles"). 
 
