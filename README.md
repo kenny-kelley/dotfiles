@@ -23,4 +23,5 @@ On Linux, `Preferences.sublime-settings` goes in `~/.config/sublime-text/Package
 
 I usually install the following packages via Package Control:
 - TrailingSpaces
+- INI
 - Print to HTML
