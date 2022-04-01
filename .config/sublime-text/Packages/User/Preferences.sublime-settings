@@ -4,10 +4,6 @@
 	"color_scheme": "Packages/Color Scheme - Default/Mariana.sublime-color-scheme",
 	"default_line_ending": "unix",
 	"ensure_newline_at_eof_on_save": true,
-	"ignored_packages":
-	[
-		"Vintage"
-	],
 	"mini_diff": false,
 	"rulers":
 	[
