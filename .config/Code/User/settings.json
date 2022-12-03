@@ -1,0 +1,11 @@
+{
+    "workbench.colorTheme": "Mariana",
+    "editor.lightbulb.enabled": false,
+    "git.enabled": false,
+    "git.autofetch": false,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "editor.renderWhitespace": "all",
+    "editor.renderLineHighlight": "gutter",
+    "workbench.startupEditor": "none"
+}
