@@ -1,16 +1,13 @@
 # Kenny's dotfiles
-This repo is a dumping ground for my personal config files--my "dotfiles".
+The ArchWiki has a nice article about dotfiles:
+- https://wiki.archlinux.org/title/Dotfiles
 
-If you're cruious, see https://wiki.archlinux.org/index.php/Dotfiles.
+The structure here *should* replicate that of my home folder (`~/`).
 
-The directory structure here *should* replicate my home folder (`~/`).
-
-This README also contains some notes about the setup of each program.
+This README also contains some notes about the setup of some programs.
 
 ## Git
-On Linux, `.gitconfig` goes in `~/`.
-
-These commands can be used to generate my `.gitconfig`:
+These commands can be used to generate my `~/.gitconfig` from scratch:
 ```bash
 git config --global user.name "Kenny Kelley"
 git config --global user.email "16879853+kenny-kelley@users.noreply.github.com"
@@ -19,9 +16,7 @@ git config --global init.defaultBranch main
 ```
 
 ## Sublime Text
-On Linux, `Preferences.sublime-settings` goes in `~/.config/sublime-text/Packages/User`.
-
 I usually install the following packages via Package Control:
-- TrailingSpaces
 - INI
 - Print to HTML
+- TrailingSpaces
