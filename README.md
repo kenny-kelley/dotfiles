@@ -15,4 +15,4 @@ There are also cases where you might want to import (or "adopt") the files in yo
 stow -t ~/ --adopt .
 ```
 
-Be careful, because this stuff can be messy to clean up if it goes wrong. See `man stow`.
+Be careful. This stuff can be messy to clean up if it goes wrong. See `man stow`.
