@@ -1,8 +1,18 @@
 # Kenny's dotfiles
-The structure here *should* replicate that of my home folder (`~/`).
 
-The ArchWiki has a nice article about dotfiles, which can be found here: https://wiki.archlinux.org/title/Dotfiles
+The structure here needs to replicate that of `~/`.
 
-I run `./copy-in-dotfiles.sh` to import things that I care about.
+The ArchWiki has a nice article about dotfiles, which can be found here:
+- https://wiki.archlinux.org/title/Dotfiles
 
-It also contains some other small, helpful scripts.
+If you want to put new symlinks into your home folder, run this:
+```bash
+stow -t ~/ .
+```
+
+There are also cases where you might want to import (or "adopt") the files in your home folder over top of the things here:
+```bash
+stow -t ~/ --adopt .
+```
+
+Be careful, because this stuff can be messy to clean up if it goes wrong. See `man stow`.
