@@ -1,8 +1,5 @@
-# dotfiles
-The structure here needs to replicate that of `~/`.
-
-The ArchWiki has a nice article about dotfiles, which can be found here:
-- https://wiki.archlinux.org/title/Dotfiles
+# Using `stow`
+I use `stow` to manage my dotfiles, so the structure here replicates that of `~/`.
 
 If you want to put new symlinks into your home folder, run this:
 ```bash
