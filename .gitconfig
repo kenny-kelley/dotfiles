@@ -3,5 +3,6 @@
 	email = 16879853+kenny-kelley@users.noreply.github.com
 [core]
 	editor = vim
+	excludesFile = ~/.gitignore_global
 [init]
 	defaultBranch = main
