@@ -1,5 +1,4 @@
-# Kenny's dotfiles
-
+# dotfiles
 The structure here needs to replicate that of `~/`.
 
 The ArchWiki has a nice article about dotfiles, which can be found here:
