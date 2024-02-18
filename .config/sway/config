@@ -209,7 +209,7 @@ bindsym $mod+r mode "resize"
 #
 # Screenshots:
 #
-    bindsym $mod+Shift+s exec --no-startup-id grim -g "$(slurp)" - | tee ~/Pictures/Screenshots/Screenshot_$(date --rfc-3339=seconds | sed 's/ /T/').png | wl-copy
+    bindsym $mod+Shift+s exec --no-startup-id slurp | grim -g - - | tee ~/Pictures/Screenshots/Screenshot_$(date --rfc-3339=seconds | sed 's/ /T/').png | wl-copy
 
 ### Other stuff
 #
