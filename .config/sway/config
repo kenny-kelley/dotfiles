@@ -48,6 +48,11 @@ output $disp2 mode 2560x1440@179.960Hz position 2560,0 adaptive_sync on
 # This will lock your screen after 300 seconds of inactivity, then turn off
 # your displays after another 300 seconds, and turn your screens back on when
 # resumed. It will also lock your screen before your computer goes to sleep.
+set $lock swaylock -e -f -c 000000
+exec swayidle -w \
+        timeout 600 "$lock" \
+        timeout 660 'swaymsg "output * power off"' resume 'swaymsg "output * power on"' \
+        before-sleep "$lock"
 
 ### Input configuration
 #
@@ -210,6 +215,10 @@ bindsym $mod+r mode "resize"
 # Screenshots:
 #
     bindsym $mod+Shift+s exec --no-startup-id slurp | grim -g - - | tee ~/Pictures/Screenshots/Screenshot_$(date --rfc-3339=seconds | sed 's/ /T/').png | wl-copy
+#
+# Screen lock:
+#
+    bindsym Mod4+l exec $lock
 
 ### Other stuff
 #
