@@ -206,6 +206,10 @@ mode "resize" {
     bindsym Escape mode "default"
 }
 bindsym $mod+r mode "resize"
+#
+# Screenshots:
+#
+    bindsym $mod+Shift+grave exec --no-startup-id grim -g "$(slurp)" - | tee ~/Pictures/Screenshots/Screenshot_$(date --rfc-3339=seconds | sed 's/ /T/').png | wl-copy
 
 ### Other stuff
 #
