@@ -167,9 +167,6 @@ output $disp2 mode 2560x1440@179.960Hz position 2560,0 adaptive_sync on
 
     # Move focus to the parent container
     bindsym $mod+a focus parent
-
-    # Disable the focus following the cursor around
-    focus_follows_mouse no
 #
 # Scratchpad:
 #
@@ -207,6 +204,12 @@ mode "resize" {
 }
 bindsym $mod+r mode "resize"
 
+### Other stuff
+#
+# Miscellaneous settings:
+#
+    # Disable the focus following the cursor around
+    focus_follows_mouse no
 #
 # Status Bar:
 #
