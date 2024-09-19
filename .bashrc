@@ -24,5 +24,8 @@ if [ -d ~/.bashrc.d ]; then
 fi
 unset rc
 
+# Aliases
+alias diff="diff --color"
+
 # Set up fzf key bindings and fuzzy completion
 eval "$(fzf --bash)"
