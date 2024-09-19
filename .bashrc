@@ -23,3 +23,6 @@ if [ -d ~/.bashrc.d ]; then
     done
 fi
 unset rc
+
+# Set up fzf key bindings and fuzzy completion
+eval "$(fzf --bash)"
